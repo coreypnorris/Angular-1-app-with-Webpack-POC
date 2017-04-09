@@ -1,0 +1,22 @@
+{
+  "name": "testtwo",
+  "version": "1.0.0",
+  "description": "- Install [nodejs](https://nodejs.org/en/). Choose the package labeled *Recommended for Most Users*\r - Create a folder for the project and open a command prompt there.\r - Create a local *package.json* file by running `npm init`\r   - Choose all the default options.\r   - You should have the *package.json* file afterward\r - Install webpack localy by running `npm install webpack -S`.\r   - You should have a *node_modules* folder with many subfolders inside afterward. These are webpack's dependencies.\r   - **Optional** If you are using git you may want to create a *.gitignore* file & add the *node_modules* folder to it.\r - Install webpack globaly by running `npm install webpack -g`\r - Install the html-webpack-plugin localy by running `npm install html-webpack-plugin -S`\r - Create a local folder named *src*\r   - Inside the *src* folder create a file named *app.js*. Leave it empty for now.\r   - Inside the *src* folder create a file named *index.html* with the following code:\r ```html\r <!doctype html>\r <html lang=\"en\">\r   <head>\r     <meta charset=\"utf-8\">\r     <title>Temporary Title</title>\r   </head>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
