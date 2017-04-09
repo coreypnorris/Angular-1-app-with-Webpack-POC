@@ -1,5 +1,14 @@
 # Seting up an Angular 1 app with Webpack POC
 
+## Todo
+- ~~Basic installation~~
+- ~~Option to minify HTML~~
+- ~~Inject local & 3rd party javascript files~~
+- ~~Inject sass & compile files~~
+- ~~Run index.html on a webserver~~
+- Compile typescript files
+
+
 ## Installation
 - Install [nodejs](https://nodejs.org/en/). Choose the package labeled *Recommended for Most Users*
 - Create a folder for the project and open a command prompt there.
